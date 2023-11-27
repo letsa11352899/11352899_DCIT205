@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #c5bfbf;
+    color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    max-width: 300px; /* Adjust the width of your logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #110101;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #1454df; /* Change this color to your desired hover color */
+}
+
+footer {
+    background-color: rgba(232, 225, 225, 0.5).5; /* Use rgba to specify transparency */
+    color: #000;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.8em;
+}
+
+header, footer {
+    background-color: rgba(232, 225, 225, 0.5).5; /* Use rgba to specify transparency */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+.resources-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.resource-item {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+}
+
+.resource-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+  color: #333; /* Change the color as needed */
+  font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    color: hsl(240, 10%, 87%);
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}    
+
+.overlay-text h2, .overlay-text p {
+    margin: 0;
+}
+
+footer {
+    margin-top: 20px;
+}

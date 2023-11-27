@@ -1,0 +1,89 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative; /* Make the container a positioning context for absolute positioning */
+  }
+  
+  header {
+    background-color: rgb(218, 218, 225);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative; /* Ensure relative positioning for absolute positioning within */
+  }
+  
+  /* Style for the university logo */
+  .logo {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  /* Style for the additional image in the header */
+  .header-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px; /* Add some spacing between the logo and the header image */
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style for overlay text */
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(231, 223, 231, 0.7); 
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .contact-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .location {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #a05a5a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

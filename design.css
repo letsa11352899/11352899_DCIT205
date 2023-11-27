@@ -1,0 +1,132 @@
+/* Add your global styling here */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+header {
+    background-color: #c5bfbf;
+    color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    max-width: 300px; /* Adjust the width of your logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #110101;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #1454df; /* Change this color to your desired hover color */
+}
+
+#Home {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    flex-grow: 1; /* Allow the section to take up remaining space */
+}
+
+.header-video {
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 1%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: rgba(232, 225, 225, 0.5).5; /* Use rgba to specify transparency */
+    color: #000;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.8em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/*------ Course ------*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
